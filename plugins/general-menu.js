@@ -84,7 +84,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     // const pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch(_ => './src/avatar_contact.png')
     // if (m.isGroup) return conn.sendButton(m.chat, text.trim(), conn.getName(conn.user.jid), pp, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
-    conn.sendHydrated(m.chat, text.trim(), '                「 ꜱᴀᴅ BOT あ⁩ 」', await genProfile(conn, m), 'https://github.com/FahriAdison', 'Github', null, null, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
+    conn.sendHydrated(m.chat, text.trim(), '                「 Nagatoro Bot あ⁩ 」', await genProfile(conn, m), 'https://chat.whatsapp.com/ESXOhW5UVx76XhnBnkfufQ', 'Grub Wa', null, null, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
    // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: await conn.getName(conn.user.jid) , templateButtons: [{ quickReplyButton: { displayText: 'Speedtest', id: `${_p}ping` }}, { quickReplyButton: { displayText: 'Owner', id: `${_p}owner` }} ] })
      //conn.sendButton(m.chat, text.trim(), conn.user.name, await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
   } catch (e) {
