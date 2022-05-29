@@ -5,7 +5,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: nul
 title: '',
 body: '',         
 previewType: 0, thumbnail: fs.readFileSync("./thumbnail.jpg"),
-sourceUrl: `https://github.com/FahriAdison`}}})
+sourceUrl: `🧐📸`}}})
 }
 handler.command = ['sc','script'] 
 handler.help = ['sc']
