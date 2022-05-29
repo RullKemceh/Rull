@@ -1,6 +1,6 @@
 import fs from 'fs'
 let handler = async (m, { conn }) => {
-conn.reply(m.chat, `*https://github.com/FahriAdison/Sad-Multi-Device*`, m, {
+conn.reply(m.chat, `*Nyari Apa Bang🤨📸*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '',
 body: '',         
